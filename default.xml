@@ -16,8 +16,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+<!-- fetch="https://android.googlesource.com" -->
+<!-- fetch="https://aosp.tuna.tsinghua.edu.cn" -->
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://aosp.tuna.tsinghua.edu.cn"
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.1.0_r20" />
 
