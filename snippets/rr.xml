@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="build/make" name="android_build" remote="rr" >
+  <project path="build/make" name="leekindo/android_build-rr" remote="github" revision="oreo" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -9,9 +9,9 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="android" name="ResurrectionRemix/platform_manifest" revision="oreo" remote="github" />
-  <project path="vendor/rr" name="ResurrectionRemix/android_vendor_resurrection" remote="github" revision="oreo" />
-  <project path="frameworks/base" name="ResurrectionRemix/android_frameworks_base" remote="github" revision="oreo" />
+  <project path="android" name="leekindo/platform_manifest" revision="oreo" remote="github" />
+  <project path="vendor/rr" name="leekindo/android_vendor_resurrection" remote="github" revision="oreo" />
+  <project path="frameworks/base" name="leekindo/android_frameworks_base-rr" remote="github" revision="oreo" />
   <project path="packages/apps/Settings" name="ResurrectionRemix/Resurrection_packages_apps_Settings" remote="github" revision="oreo" />
   <project path="frameworks/native" name="frameworks_native" remote="rr" />
   <project path="packages/apps/SnapdragonCamera2" name="omnirom/android_packages_apps_SnapdragonCamera2" remote="github" revision="android-8.1" />
